@@ -1,0 +1,125 @@
+2014-12-21 13:46:30 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /blog/Post
+Stack Trace:
+#0 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 13:53:02 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /blog/Post
+Stack Trace:
+#0 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 13:53:20 Error: [MissingViewException] View file "/var/www/html/blog/app/View/Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/blog/app/View/Posts/view.ctp',
+)
+Request URL: /blog/posts/view/1
+Stack Trace:
+#0 /var/www/html/blog/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/blog/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/html/blog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/blog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 13:53:43 Error: [MissingViewException] View file "/var/www/html/blog/app/View/Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/blog/app/View/Posts/view.ctp',
+)
+Request URL: /blog/posts/view/1
+Stack Trace:
+#0 /var/www/html/blog/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/blog/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /var/www/html/blog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/blog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 13:55:36 Error: [NotFoundException] Invalid post
+Request URL: /blog/posts/view/
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /var/www/html/blog/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/blog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 21:55:27 Error: [MissingActionException] Action PostsController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'edit',
+)
+Request URL: /blog/posts/edit/1
+Stack Trace:
+#0 /var/www/html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/blog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-27 05:44:21 Error: [MissingControllerException] Controller class Ecommerce2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Ecommerce2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog/ecommerce2/
+Stack Trace:
+#0 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-28 06:08:58 Error: [MissingControllerException] Controller class Ecommerce2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Ecommerce2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog/ecommerce2/
+Stack Trace:
+#0 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-28 06:09:08 Error: [MissingControllerException] Controller class Ecommerce2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Ecommerce2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog/ecommerce2/
+Stack Trace:
+#0 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-28 16:45:48 Error: [MissingControllerException] Controller class Ecommerce2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Ecommerce2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog/ecommerce2/
+Stack Trace:
+#0 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-28 16:45:48 Error: [MissingControllerException] Controller class Ecommerce2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Ecommerce2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog/ecommerce2/
+Stack Trace:
+#0 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-28 16:45:52 Error: [MissingControllerException] Controller class Ecommerce2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Ecommerce2Controller',
+  'plugin' => NULL,
+)
+Request URL: /blog/ecommerce2/
+Stack Trace:
+#0 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-28 16:46:03 Error: [MissingControllerException] Controller class LightningIntroductionController could not be found.
+Exception Attributes: array (
+  'class' => 'LightningIntroductionController',
+  'plugin' => NULL,
+)
+Request URL: /blog/lightning_introduction/products
+Stack Trace:
+#0 /var/www/html/blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
